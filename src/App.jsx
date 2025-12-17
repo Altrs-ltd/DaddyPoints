@@ -62,7 +62,7 @@ export default function App() {
             <div key={t.id}>
               {t.task} — {t.who}
               <button onClick={() => toggleDone(day, t.id)}>
-                {t.done ? "Done" : "To Do"}
+                {t.done ? "Done" : "complete"}
               </button>
             </div>
           ))}
